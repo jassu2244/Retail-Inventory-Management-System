@@ -1,0 +1,5 @@
+{
+  "name": "rims-workspace",
+  "private": true,
+  "scripts": {"build": "npm --prefix frontend run build"}
+}

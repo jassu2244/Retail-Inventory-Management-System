@@ -1,0 +1,39 @@
+# Environment secrets (keep the template)
+.env
+.env.*
+!.env.example
+
+# Java / Maven
+backend/target/
+backend/data/
+*.class
+*.jar
+hs_err_pid*
+
+# Node / Vite
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Python and generated report intermediates
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+tmp/
+
+# Local editor and operating system files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Unrelated file already present in this workspace
+/Student_Analyzer_Report_Final.pdf
